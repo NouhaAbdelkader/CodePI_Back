@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4433b974-9dac-4f6f-967d-da6cf0ca7f76" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Controllers/SessionController/EventController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Controllers/SessionController/NotifController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Controllers/SessionController/NotificationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Controllers/SessionController/RsvpController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Controllers/SessionController/SessionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Repositories/SessionRepo/EventRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Repositories/SessionRepo/NotifRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Repositories/SessionRepo/RsvpRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Repositories/SessionRepo/SessionRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Services/SessionService/EventServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Services/SessionService/IEventService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Services/SessionService/INotifService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Services/SessionService/ISessionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Services/SessionService/NotifServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Services/SessionService/SessionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/entities/SessionEntities/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/entities/SessionEntities/Notif.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/entities/SessionEntities/Rsvp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/entities/UserCorzelo/badgeType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Controllers/EvaluationController/EvaluationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Controllers/EvaluationController/EvaluationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Controllers/EvaluationController/QAnswerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Controllers/EvaluationController/QAnswerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Controllers/EvaluationController/QuestionTestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Controllers/EvaluationController/QuestionTestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Controllers/EvaluationController/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Controllers/EvaluationController/TestsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Controllers/FeedbackController/FeedbackController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Controllers/FeedbackController/FeedbackController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Controllers/FeedbackController/QuestionFeedbackController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Controllers/FeedbackController/QuestionFeedbackController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Controllers/ForumController/AnswerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Controllers/ForumController/AnswerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Controllers/ForumController/QuestionForumController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Controllers/ForumController/QuestionForumController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Controllers/RecruitementController/CandidancyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Controllers/RecruitementController/CandidancyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Controllers/RecruitementController/JobOfferController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Controllers/RecruitementController/JobOfferController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/CourzeloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/CourzeloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Repositories/EvaluationRepo/EvaluationRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Repositories/EvaluationRepo/EvaluationRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Repositories/EvaluationRepo/QAnswerRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Repositories/EvaluationRepo/QAnswerRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Repositories/EvaluationRepo/QuestionTestRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Repositories/EvaluationRepo/QuestionTestRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Repositories/EvaluationRepo/TestRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Repositories/EvaluationRepo/TestRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Repositories/ForumRepo/AnswerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Repositories/ForumRepo/AnswerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Repositories/ForumRepo/QuestionForumRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Repositories/ForumRepo/QuestionForumRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Repositories/ModuleRepo/ModuleRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Repositories/ModuleRepo/ModuleRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Repositories/RecruitementRepo/JobOfferRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Repositories/RecruitementRepo/JobOfferRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Repositories/UserRepo/UserRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Services/EvaluationService/EvaluationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Services/EvaluationService/EvaluationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Services/EvaluationService/IEvaluationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Services/EvaluationService/IEvaluationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Services/EvaluationService/IQAnswerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Services/EvaluationService/IQAnswerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Services/EvaluationService/IQuestionTestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Services/EvaluationService/IQuestionTestService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Services/EvaluationService/ITestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Services/EvaluationService/ITestService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Services/EvaluationService/QAnswerServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Services/EvaluationService/QAnswerServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Services/EvaluationService/QuestionTestServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Services/EvaluationService/QuestionTestServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Services/EvaluationService/TestServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Services/EvaluationService/TestServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Services/FeedbackService/FeedbackServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Services/FeedbackService/FeedbackServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Services/FeedbackService/IFeedbackService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Services/FeedbackService/IFeedbackService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Services/FeedbackService/IQuestionFeedbackService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Services/FeedbackService/IQuestionFeedbackService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Services/FeedbackService/QuestionFeedbackServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Services/FeedbackService/QuestionFeedbackServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Services/ForumService/AnswerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Services/ForumService/AnswerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Services/ForumService/QuestionForumImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Services/ForumService/QuestionForumImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Services/RecruitementService/CandidacyServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Services/RecruitementService/CandidacyServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Services/RecruitementService/ICandidacyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Services/RecruitementService/ICandidacyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Services/RecruitementService/IJobOfferService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Services/RecruitementService/IJobOfferService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Services/RecruitementService/JobOfferServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/Services/RecruitementService/JobOfferServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/configurations/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/configurations/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/entities/AcademicProgramEntities/Class.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/entities/AcademicProgramEntities/Class.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/entities/AcademicProgramEntities/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/entities/AcademicProgramEntities/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/entities/AcademicProgramEntities/EducationalProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/entities/AcademicProgramEntities/EducationalProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/entities/AcademicProgramEntities/Level.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/entities/AcademicProgramEntities/Level.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/entities/AcademicProgramEntities/Module.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/entities/AcademicProgramEntities/Module.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/entities/EvaluationEntities/Evaluation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/entities/EvaluationEntities/Evaluation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/entities/EvaluationEntities/QAnswer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/entities/EvaluationEntities/QAnswer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/entities/EvaluationEntities/QuestionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/entities/EvaluationEntities/QuestionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/entities/EvaluationEntities/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/entities/EvaluationEntities/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/entities/FeedBackEntities/Feedback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/entities/FeedBackEntities/Feedback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/entities/ForumEntities/Answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/entities/ForumEntities/Answer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/entities/ForumEntities/ChatRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/entities/ForumEntities/ChatRoom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/entities/ForumEntities/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/entities/ForumEntities/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/entities/ForumEntities/QuestionForum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/entities/ForumEntities/QuestionForum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/entities/ForumEntities/Votes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/entities/ForumEntities/Votes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/entities/ProjectEntities/GroupProject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/entities/ProjectEntities/GroupProject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/entities/ProjectEntities/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/entities/ProjectEntities/Project.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/entities/RecruitementEntities/JobOffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/entities/RecruitementEntities/JobOffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/entities/SessionEntities/Session.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/entities/SessionEntities/Session.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/entities/UserCorzelo/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/entities/UserCorzelo/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/entities/UserCorzelo/UserCourzelo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/entities/UserCorzelo/UserCourzelo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Courzelo_Front/Courzelo/src/app/shared/nav-bar/nav-bar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Courzelo_Front/Courzelo/src/app/shared/nav-bar/nav-bar.component.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$/.." source="main" />
+              </list>
+            </value>
+          </entry>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$/.." source="origin/main" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$/.." source="Nouha" />
+                <branch-info repo="$PROJECT_DIR$/Courzelo" source="Nouha" />
+              </list>
+            </value>
+          </entry>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$/.." source="origin/Nouha" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="1c99678761474c24f8d936a725ad74ce92a60937" />
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2cdZFle8w1gMzblFKkT91Y3Blhh" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;3fef58e5&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/msi/Desktop/5PI/Courzelo-Web-LMS/Spring Boot&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;,
+      &quot;repository&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\msi\Desktop\Courzelo-Test\Courzelo\Courzelo_Back\src\main\java\tn\esprit\courzelo\Services" />
+      <recent name="C:\Users\msi\Desktop\Courzelo-Test\Courzelo\Courzelo_Back\src\main\java\tn\esprit\courzelo\Repositories" />
+      <recent name="C:\Users\msi\Desktop\Courzelo-Test\Courzelo\Courzelo_Back\src\main\java\tn\esprit\courzelo\Controllers" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="CourzeloApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Courzelo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="tn.esprit.courzelo.CourzeloApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4433b974-9dac-4f6f-967d-da6cf0ca7f76" name="Changes" comment="" />
+      <created>1708443316510</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708443316510</updated>
+      <workItem from="1708443317393" duration="16181000" />
+      <workItem from="1708937382488" duration="5339000" />
+      <workItem from="1708988601343" duration="1295000" />
+      <workItem from="1708989911963" duration="79876000" />
+      <workItem from="1709715150518" duration="27506000" />
+      <workItem from="1709819201714" duration="1638000" />
+      <workItem from="1710158102981" duration="5977000" />
+      <workItem from="1710330458025" duration="4022000" />
+      <workItem from="1711544026652" duration="8427000" />
+      <workItem from="1711574479048" duration="3578000" />
+      <workItem from="1711627941710" duration="62928000" />
+      <workItem from="1713169787626" duration="20810000" />
+      <workItem from="1713270881109" duration="1006000" />
+      <workItem from="1713271906955" duration="2074000" />
+      <workItem from="1713274008102" duration="56000" />
+      <workItem from="1713274174625" duration="733000" />
+      <workItem from="1713282593870" duration="438000" />
+      <workItem from="1713283084323" duration="188000" />
+      <workItem from="1713283366542" duration="12813000" />
+      <workItem from="1713363576644" duration="1434000" />
+      <workItem from="1713365074826" duration="11203000" />
+      <workItem from="1713390993471" duration="432000" />
+      <workItem from="1713395676931" duration="4261000" />
+      <workItem from="1713414635357" duration="6990000" />
+      <workItem from="1713546747319" duration="630000" />
+      <workItem from="1714040628115" duration="2316000" />
+      <workItem from="1715814799307" duration="1278000" />
+      <workItem from="1715857079354" duration="2591000" />
+      <workItem from="1717028419193" duration="821000" />
+      <workItem from="1718050022751" duration="607000" />
+      <workItem from="1718183093433" duration="617000" />
+      <workItem from="1719995382623" duration="339000" />
+      <workItem from="1719995766112" duration="2489000" />
+      <workItem from="1719998483748" duration="3586000" />
+      <workItem from="1720014825700" duration="4565000" />
+      <workItem from="1720126988410" duration="27000" />
+      <workItem from="1720172131738" duration="5265000" />
+      <workItem from="1720202041722" duration="79000" />
+      <workItem from="1720620868342" duration="36000" />
+      <workItem from="1721647309391" duration="1498000" />
+      <workItem from="1727300364845" duration="3264000" />
+      <workItem from="1727362887964" duration="83000" />
+      <workItem from="1727371173331" duration="2294000" />
+      <workItem from="1727978787061" duration="5668000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/tn/esprit/courzelo/configurations/WebConfig.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
